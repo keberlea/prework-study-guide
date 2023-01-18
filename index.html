@@ -18,29 +18,79 @@
       <section class="card" id="html-section">
         <h2>HTML</h2>
           <ul>
-            <li>The head element contains information about the webpage.</li>
+            <li>Hypertext Markup Languauge <b>(HTML)</b>- made up of elements.
+            <br>add contents to a page: Text elements, image elements, header elements, list elements
+            <br>divide and describe a page: Meta-related elements, content division elements, semantic elements
+            </li>
+            <li>The head element contains information <b>(metadata)</b> about the webpage and are not visible to the user.</li>
             <li>The body element represents the visible content shown to the user.</li>
+            <li>HTML attributes are always defined in the beginning element, never the closing element</li>
+            <li>components of the head: meta ( defines metadata such as the character set <b>(charset)</b>, description, keywords, author, and viewpoint), title (title of webpage,seen on tab *SEO*),
+               style (defines CSS styles associated with website), base (defines base URL for a webpage), link ( connects and external resource to the HTML document), 
+              script (embeds client-side scripts in the HTML doc)</li>
+            <li>To link: <b>link rel="stylesheet" href="./assets/style.css"</b></li>
+            <li><b>!DOCTYPE html</b> declares what document type to browser</li>
+            <li><b>html lang="en"</b> tells browser the language is english</li>
+            <li><b>tag:</b> what appears inside the angle brackets</li>
+            <li> <b>h tags</b> represent the level of heading a text block represents</li>
+            <li><b>p tag</b> represents a paragragh or block of text</li>
+            <li><b> ul, ol, li:</b> represent unordered lists, ordered lists, and list items. ul-bullets ol-numbers</li>
+            <li><b>img tag:</b> contains info on images that are displayed on webpage<br>
+            <b>src</b> attribute defines location of image</li>
+            <li><b>a href:</b> a-anchor and href- attribute points to the url for the link</li>
+            <li><b>section elements:</b> define a section in a doc that containts thematic content
+              <br> <b>section class="card" id="html-section" /section</b></li>
+          
           </ul>
       </section>
    
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS notes here</li>
+          <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks">CSS building blocks</a><br>
+          <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals">Fundamental text and font styling</a> <br>
+          <a href="https://htmlcolorcodes.com/"> HTML color code</a>
+          <li><b>inline CSS</b> used to style an element directly in HTML file</li>
+          <li><b>internal style sheet</b> contains CSS rules forthe webpage in the head section of HTML</li>
+          <li><b>external style sheet</b> all CSS rules in a separate file linked to the HTML file but link element places in the HTML's head</li>
+          <li><b>margin</b> edge of screen</li>
+          <li><b>border</b> border of webpage</li>
+          <li><b>padding</b> space between border and content</li>
+          <li><b>content</b> space inside border and padding that displays webpage content</li>
+          <li><b>header and footer</b> allows for a header or footer to be placed on webpage with control of color, background color width and heigth</li>
+          <li><b>class attributes</b>allow us to share a CSS rule to any element we chose by assinging the rule to a class attribute with a class selector 
+          <br><b> ex..card {<br>
+            width: 80%;<Br>
+            margin: 40px auto;<br>
+            border: 5px solid gray;<Br>
+            box-shadow: 5px 10px #888888;<br>
+          }</b></li>
+          <li><a href="https://www.w3schools.com/tags/tag_meta.asp">Other properties and values to try</a></li>
         </ul>
       </section>
    
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
-          <li>git status: checks what branch we are currently on</li>
-          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <a href="https://education.github.com/git-cheat-sheet-education.pdf">GitHub Git Cheat Sheet</a><br>
+
+          <li><b>git status:</b> checks what branch we are currently on</li>
+          <li><b>git checkout -b branch-name:</b> creates a new branch and switches to it</li>
+          <li><b>git checkout:</b>switch to another branch</li>
+          <li><b>get add:</b> commit all files in the working branch</li>
+          <li><b>git commit -m "[descriptive message]:</b>commit staged content as a new commit</li>
+          <li><b>git pull:</b>fetch and merge any commits from the tracking remote branch</li>
+          <li><b>git pull origin main:</b> pull remote main branch into the local main branch</li>
+
+          <li><b></b></li>
         </ul>
       </section>
    
       <section class="card" id="javascript-section">
           <h2>JavaScript</h2>
           <ul>
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics">JavaScript Basics</a><Br>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">JavaScript data types and data structures</a>
             <li>Enter your JavaScript notes here</li>
             <li>variable- a named container that stores data in our code de clared by var.<br>
             <b>var shape = "circle"; </b> <br>
